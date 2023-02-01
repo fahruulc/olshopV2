@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@1,900&display=swap");
+.container-fluid {
+  margin: 0px 40px;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+.bg-light {
+  background: #0000009c !important;
+  backdrop-filter: blur(3px);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.589);
+  transition: all 0.5s;
+}
+.bg-light.scrolled {
+  background: #ffffff !important;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.589);
+  transition: all 0.5s;
+}
+.navbar-light .navbar-brand {
+  color: #ffffff;
+  transition: all 0.3s;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: #3ca860;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+  transition: all 0.3s;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #3ca860;
+}
+.navbar-light.scrolled .navbar-brand {
+  color: #3ca860;
+  transition: all 0.3s;
+}
+.navbar-light.scrolled .navbar-brand:focus,
+.navbar-light.scrolled .navbar-brand:hover {
+  color: #383838;
+}
+.navbar-light.scrolled .navbar-nav .nav-link {
+  color: #3ca860;
+  transition: all 0.3s;
+}
+.navbar-light.scrolled .navbar-nav .nav-link:focus,
+.navbar-light.scrolled .navbar-nav .nav-link:hover {
+  color: #383838;
+}
+
+.judulLanding {
+  padding: 30px 30px;
+  color: green;
+}
+.styleLanding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.styleLanding span {
+  width: 300px;
+  height: 3px;
+  background-color: rgba(0, 0, 0, 0.199);
+  border-radius: 5px;
+}
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-price {
+  font-size: 17px;
+  color: green;
+}
+
+.article-container-firstRow {
+  width: 1100px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  text-align: center;
+}
+.article-container-secondRow {
+  width: 340px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  text-align: center;
+}
+.article-container-thirdRow {
+  width: 530px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  text-align: center;
+}
+
+.categoryy .container .col {
+  margin-bottom: 20px;
+}
+.article-img-holder-firstRow {
+  width: 100%;
+  height: 100%;
+  background: url("../img/ootd.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.7s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+}
+.article-img-holder-secondRow {
+  width: 100%;
+  height: 100%;
+  transition: all 0.7s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+}
+.tshirt {
+  background: url("../img/tshirt.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.outer {
+  background: url("../img/outer.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.shirt {
+  background: url("../img/shirt.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pants {
+  background: url("../img/pants.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.accessories {
+  background: url("../img/accessories.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dress {
+  background: url("../img/dress.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kerudung {
+  background: url("../img/kerudung.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rok {
+  background: url("../img/rok.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.article-img-holder-thirdRow {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.7s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.article-img-holder-firstRow:hover {
+  transform: scale(1.2);
+  filter: saturate(0%);
+}
+.article-img-holder-secondRow:hover {
+  transform: scale(1.2);
+  filter: saturate(0%);
+}
+.article-img-holder-thirdRow:hover {
+  transform: scale(1.2);
+  filter: saturate(0%);
+}
+
+.carousel {
+  margin: 70px 70px;
+}
+.carousel-caption h5,
+.carousel-caption p {
+  transform: translateY(-60px);
+}
+.andro {
+  display: none;
+}

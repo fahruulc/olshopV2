@@ -1,0 +1,21 @@
+@media screen and (max-width: 576px) {
+  .carousel {
+    display: none;
+  }
+  .andro {
+    display: flex;
+  }
+  .card {
+    margin: 0px 20px;
+  }
+  .judulLanding {
+    padding: 10px 10px;
+    color: green;
+  }
+  .category .container .row a {
+    text-align: center;
+  }
+  .card-title h5 {
+    color: aqua;
+  }
+}
