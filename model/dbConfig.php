@@ -1,7 +1,7 @@
 <?php
 
 
-$conn = mysqli_connect("localhost", "id19968197_fahrul", "@I9g?^2-~[\Eh(\h", "id19968197_affiliate");
+$conn = mysqli_connect("localhost", "(your username)", "(your password)", "your db name");
 
 function query($query)
 {
